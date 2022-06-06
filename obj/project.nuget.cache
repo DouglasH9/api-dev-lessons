@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j93HXGE2mb7DC0cSSLVnU1YM1Bd4oMjvb2nk7DVeZbpmdeQA8YqRaVqwtJ/nbOG0aFwE7IqXKI/z3FoODFNhtg==",
+  "dgSpecHash": "XRdPQkJe2FLdJA4d4aJBIc7aQg73aoD5Jq+gE9cVgDpBMN3NorEBlkxjt5VbXdB8mwUIDoewgadSQnqUjzIweg==",
   "success": true,
   "projectFilePath": "/Users/douglasherman/api-dev-lessons/api-dev-lessons.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,8 @@
     "/Users/douglasherman/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/douglasherman/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/douglasherman/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/douglasherman/.nuget/packages/npgsql/6.0.4/npgsql.6.0.4.nupkg.sha512",
+    "/Users/douglasherman/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.4/npgsql.entityframeworkcore.postgresql.6.0.4.nupkg.sha512",
     "/Users/douglasherman/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
     "/Users/douglasherman/.nuget/packages/serilog.aspnetcore/5.0.0/serilog.aspnetcore.5.0.0.nupkg.sha512",
     "/Users/douglasherman/.nuget/packages/serilog.expressions/3.4.0/serilog.expressions.3.4.0.nupkg.sha512",
