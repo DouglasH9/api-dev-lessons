@@ -45,6 +45,26 @@ namespace api_dev_lessons.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Countries",
+                columns: new[] { "Id", "Name", "ShortName" },
+                values: new object[,]
+                {
+                    { 1, "Jamaica", "JM" },
+                    { 2, "Bahamas", "BS" },
+                    { 3, "Cayman Islands", "CI" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Hotels",
+                columns: new[] { "Id", "Address", "CountryId", "Name", "Rating" },
+                values: new object[,]
+                {
+                    { 1, "Negril", 1, "Sandals Resort and Spa", 4.5 },
+                    { 2, "George Town", 2, "Comfort Suites", 4.2999999999999998 },
+                    { 3, "Cayman City", 3, "Grand Budapest Hotel", 5.0 }
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Hotels_CountryId",
                 table: "Hotels",

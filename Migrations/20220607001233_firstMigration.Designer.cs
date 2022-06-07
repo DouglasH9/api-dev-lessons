@@ -11,7 +11,7 @@ using api_dev_lessons.Data;
 namespace api_dev_lessons.Migrations
 {
     [DbContext(typeof(HotelListingDbContext))]
-    [Migration("20220606210356_firstMigration")]
+    [Migration("20220607001233_firstMigration")]
     partial class firstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,26 @@ namespace api_dev_lessons.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Countries");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Jamaica",
+                            ShortName = "JM"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Bahamas",
+                            ShortName = "BS"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Cayman Islands",
+                            ShortName = "CI"
+                        });
                 });
 
             modelBuilder.Entity("api_dev_lessons.Data.Hotel", b =>
@@ -67,6 +87,32 @@ namespace api_dev_lessons.Migrations
                     b.HasIndex("CountryId");
 
                     b.ToTable("Hotels");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Negril",
+                            CountryId = 1,
+                            Name = "Sandals Resort and Spa",
+                            Rating = 4.5
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "George Town",
+                            CountryId = 2,
+                            Name = "Comfort Suites",
+                            Rating = 4.2999999999999998
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "Cayman City",
+                            CountryId = 3,
+                            Name = "Grand Budapest Hotel",
+                            Rating = 5.0
+                        });
                 });
 
             modelBuilder.Entity("api_dev_lessons.Data.Hotel", b =>
