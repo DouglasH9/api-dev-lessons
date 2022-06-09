@@ -60,8 +60,6 @@ namespace api_dev_lessons.Controllers
                 return BadRequest("Invalid id");
             }
 
-            // _context.Entry(country).State = EntityState.Modified;
-
             var country = await _countriesRepository.GetAsync(id);
 
             if (country is null)
@@ -108,7 +106,7 @@ namespace api_dev_lessons.Controllers
         {
             var country = await _countriesRepository.GetAsync(id);
 
-            if (country == null)
+            if (country is null)
             {
                 return NotFound();
             }
