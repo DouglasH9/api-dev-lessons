@@ -276,3 +276,5 @@
 /Users/douglasherman/api-dev-lessons/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /Users/douglasherman/api-dev-lessons/bin/Debug/net6.0/runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
 /Users/douglasherman/api-dev-lessons/bin/Debug/net6.0/runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
+/Users/douglasherman/api-dev-lessons/bin/Debug/net6.0/AutoMapper.dll
+/Users/douglasherman/api-dev-lessons/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
